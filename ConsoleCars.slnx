@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ConsoleCars.API/ConsoleCars.API.csproj" />
+  <Project Path="ConsoleCars.Lib/ConsoleCars.Lib.csproj" />
+</Solution>

@@ -1,0 +1,102 @@
+[
+  {
+    "ContainingType": "ConsoleCars.API.Controllers.VeiculosController",
+    "Method": "GetVeiculos",
+    "RelativePath": "Veiculos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsoleCars.API.Controllers.VeiculosController",
+    "Method": "CadastrarVeiculo",
+    "RelativePath": "Veiculos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createVeiculoDto",
+        "Type": "ConsoleCars.API.Data.Dtos.CreateVeiculoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsoleCars.API.Controllers.VeiculosController",
+    "Method": "GetVeiculoByPlaca",
+    "RelativePath": "Veiculos/{placa}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "placa",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsoleCars.API.Controllers.VeiculosController",
+    "Method": "AtualizarVeiculo",
+    "RelativePath": "Veiculos/{placa}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "placa",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateVeiculoDto",
+        "Type": "ConsoleCars.API.Data.Dtos.UpdateVeiculoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsoleCars.API.Controllers.VeiculosController",
+    "Method": "AtualizaCampoVeiculo",
+    "RelativePath": "Veiculos/{placa}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "placa",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "patch",
+        "Type": "Microsoft.AspNetCore.JsonPatch.Operations.Operation[]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsoleCars.API.Controllers.VeiculosController",
+    "Method": "DeletarVeiculo",
+    "RelativePath": "Veiculos/{placa}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "placa",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
